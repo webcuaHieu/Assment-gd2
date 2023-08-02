@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSMENT</title>
+    <link rel="stylesheet" href="assment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="body">
+        <nav>
+            <div class="body-nav">
+                <div class="nav-logo">
+                    <div class="nav-img">
+                        <img src="/ASSMENT/image/image 1.png" alt="">
+                    </div>
+                    <div class="nav-button">
+                        <button><i class="fa-solid fa-list"></i>Dashboard</button>
+                        <button><i class="fa-solid fa-list"></i>Quản lý sản phẩm</button>
+                        <button><i class="fa-solid fa-list"></i>Quản lý user</button>
+                        <button><i class="fa-solid fa-list"></i>Quản lý phản hồi</button>
+                        <button><i class="fa-solid fa-list"></i>Thống kê</button>
+                    </div>
+                </div>
+                <div class="body-text">
+                    <div class="text-header">
+                        <div class="header-icon">
+                            <i class="fa-solid fa-bell"></i>
+                            <span>Xin chào</span>
+                            <span>Trần Hiếu </span>
+                            <div class="img-image"></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="header-image">
+                        <img src="/ASSMENT/image/Rectangle 152.png" alt="">
+                    </div>
+                    <h2>Thêm mới User</h2>
+                    <form action="">
+                        <div class="sum-text">
+                            <div class="input-text">
+                                <input type="text" id="name" placeholder="usrename">
+                                <p id="error-name"></p>
+                            </div>
+                            <div class="input-text">
+                                <input type="text" id="password" placeholder="password">
+                                <p id="error-password"></p>
+                            </div>
+                            <div class="input-text">
+                                <input type="text" id="re-password" placeholder="re-password">
+                                <p id="error-re-password"></p>
+                            </div>
+                            <div class="input-text">
+                                <input type="text" id="email" placeholder="email">
+                                <p id="error-eamil"></p>
+                            </div>
+                            <div class="input-text">
+                                <select name="" id="tinhtrang">
+                                    <option value="">Tình Trạng</option>
+                                    <option value="gần vào">gần vào</option>
+                                    <option value="sắp vào">sắp vào</option>
+                                    <option value="mới vào">mới vào</option>
+                                </select>
+                                <p id="error-eamil"></p>
+                            </div>
+                        </div>
+                        <button type="submit" onclick="add()">Thêm Mới</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                    <table border="1" id="table">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Password</th>
+                                <th>Email</th>
+                                <th>Tình Trạng</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="render">
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <script src="assment.js"></script>
+</body>
+
+</html>

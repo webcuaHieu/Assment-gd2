@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo>button {
+    display: block;
+}
+
+.nav-img>img {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.nav-button {
+    margin: 0 10px;
+}
+
+.nav-button>button {
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-button>button:hover{
+    background-color: rgb(204, 201, 201);
+    color: white;
+}
+
+.nav-button>button>i {
+    float: left;
+    margin-left: 5%;
+}
+.buttom:hover{
+    cursor: pointer;
+    background-color: #72c6f6;
+    color: #4A4A4A;
+}
+
+.nav-logo {
+    background-color: #4A4A4A;
+    width: 293px;
+    height: 1363px;
+}
+
+.body-text {
+    height: 1363px;
+    background-color: antiquewhite;
+}
+
+.body-nav {
+    display: flex;
+}
+
+.hello {
+    margin-right: 5px;
+    font-weight: 100;
+}
+
+.name {
+    margin-right: 5px;
+    color: #007EC6;
+}
+
+.img-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-image: url(/ASSMENT/image/nhật\ bản4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text-header {
+    display: flex;
+    justify-content: end;
+}
+
+.header-icon {
+    display: flex;
+    line-height: 30px;
+}
+
+.header-icon>i {
+    line-height: 30px;
+    margin-right: 10px;
+    color: rgb(47, 144, 217);
+}
+
+.header-image>img {
+    width: 80%;
+    height: 140px;
+    margin-top: 26px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-text {
+    margin-top: 10px;
+}
+
+.input-text>input {
+    width: 300px;
+    padding: 5px 10px;
+    outline: greenyellow;
+}
+
+select {
+    width: 225px;
+    padding: 5px 10px;
+}
+
+.input-text>p {
+    color: red;
+    font-size: 10px;
+}
+
+form>button {
+
+    width: 320px;
+    height: 30px;
+    background-color: #007EC6;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+table {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 1px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    height: 20px;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}
